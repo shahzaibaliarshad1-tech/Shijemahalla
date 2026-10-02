@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shahzaib Mohalla</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f5f6f8;color:#222}
+header{background:#fff;padding:22px 18px 14px;position:sticky;top:0;box-shadow:0 2px 8px #0001;z-index:2}
+h1{margin:0;font-size:26px} .sub{color:#777;margin-top:5px}
+main{padding:16px 14px 90px}.card{background:#fff;border-radius:16px;padding:18px;margin-bottom:14px;box-shadow:0 2px 10px #0000000d}
+.card h2{margin:0 0 8px;font-size:19px}.card p{margin:0;color:#666;line-height:1.7}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.tile{background:#fff;border-radius:16px;padding:18px;text-align:center;box-shadow:0 2px 10px #0000000d;font-weight:bold}
+.icon{font-size:30px;margin-bottom:8px}.post{border-right:4px solid #2e8b57}
+nav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid #ddd;display:flex;justify-content:space-around;padding:10px 4px;z-index:3}
+nav div{text-align:center;font-size:12px;color:#555}.navicon{font-size:22px;display:block;margin-bottom:3px}
+button{border:0;border-radius:12px;padding:12px 18px;background:#198754;color:white;font-size:16px}
+</style>
+</head>
+<body>
+<header>
+  <h1>شاہزیب محلہ</h1>
+  <div class="sub">اپنے محلے سے جڑیں، مدد کریں اور معلومات شیئر کریں</div>
+</header>
+<main>
+  <div class="card">
+    <h2>قریب میں</h2>
+    <p>اپنے آس پاس کی اہم معلومات اور لوگوں کی پوسٹس یہاں دیکھیں۔</p>
+  </div>
+  <div class="grid">
+    <div class="tile"><div class="icon">🛒</div>خرید و فروخت</div>
+    <div class="tile"><div class="icon">🤝</div>مدد</div>
+    <div class="tile"><div class="icon">📢</div>اعلانات</div>
+    <div class="tile"><div class="icon">📍</div>قریب کی جگہیں</div>
+  </div>
+  <div class="card post" style="margin-top:14px">
+    <h2>تازہ پوسٹ</h2>
+    <p>یہاں محلے کی نئی پوسٹس دکھائی جائیں گی۔</p>
+  </div>
+  <div class="card">
+    <h2>اپنی پوسٹ شامل کریں</h2>
+    <p style="margin-bottom:12px">محلے کے لوگوں کے ساتھ کوئی خبر، چیز یا مدد کی درخواست شیئر کریں۔</p>
+    <button onclick="alert('پوسٹ شامل کرنے والا حصہ اگلے مرحلے میں فعال کیا جائے گا۔')">پوسٹ کریں</button>
+  </div>
+</main>
+<nav>
+  <div><span class="navicon">🏠</span>ہوم</div>
+  <div><span class="navicon">📍</span>قریب</div>
+  <div><span class="navicon">➕</span>پوسٹ</div>
+  <div><span class="navicon">💬</span>چیٹ</div>
+  <div><span class="navicon">👤</span>پروفائل</div>
+</nav>
+</body>
+</html>
